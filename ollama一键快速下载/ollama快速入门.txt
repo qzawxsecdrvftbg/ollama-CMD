@@ -1,0 +1,4 @@
+1.先打开CMD运行"ollama serve"	|没保存就安装好了
+2.ollama serve	|命令行开启ollama程序
+3.ollama list	|查看模型
+4.OllamaSetup.exe /DIR=		|等号（“=”）后面要复制要安装的路径

@@ -1,0 +1,26 @@
+﻿# Ollama智能下载器配置文件
+# 修改后保存，下次运行生效
+
+# Ollama安装状态（0=未安装，1=已安装，首次运行自动检测）
+is_ollama_installed=0
+
+# 默认预估最大网速（MB/s）
+default_max_speed=10
+
+# 速度阈值比例（%，低于此比例视为低速，默认65）
+threshold_percent=65
+
+# 连续低速阈值（达到此次数后重启下载）
+consecutive_low_threshold=3
+
+# 累计低速阈值（达到此次数后重新检测MAX值）
+total_low_threshold=30
+
+# 阈值更新自动缓冲触发次数（达到此次数后自动开启缓冲期）
+threshold_update_auto_buffer=5
+
+# 初始预热期时长（秒，用于检测实际MAX值）
+initial_warmup_seconds=20
+
+# 重启/自动缓冲期时长（秒，此期间不检测低速）
+restart_buffer_seconds=19
